@@ -56,9 +56,10 @@ body{
 }
 
 #logo{
-	
+	width: 10%;
+	height: 10%;
+	border-radius: 5px;
 }
-
 
 .navbar{
 	background-color: #000;
