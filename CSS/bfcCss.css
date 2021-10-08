@@ -51,11 +51,12 @@ body{
 	color: #fff;
 	padding: 0 8%;
 	border-image-width: 60%;
+	border-bottom: 1px #333 solid;
 }
 
 #logo{
-	width: 10%;
-	height: 10%;
+	width: 7.7%;
+	height: 7.7%;
 	border-radius: 5px;
 }
 
@@ -68,6 +69,10 @@ body{
 	width: 40%;
 	margin: 80px;
 	border-radius: 10px;
+}
+
+.navbar:hover{
+	color: red;
 }
 
 .navbar ul{
@@ -110,20 +115,33 @@ nav{
 	text-decoration: none;
 	text-transform: uppercase;
 	position: absolute;
-	background-color: #000;
+	color: #fff;
+	margin-left: 2%;
+}
+#main-heading a{
+	font-family: Trebuchet MS, sans-serif;
+	text-decoration: none;
 	color: #fff;
 }
 
+#main-heading a:hover{
+	color: #000;
+}
+
 #main-heading h2{
-	font-size: 48px;
-	margin-top: 37%;
+	font-size: 55px;
+	margin-top: 36%;
 	font: normal Helvetica,sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
 	position: absolute;
-	background-color: #000;
 	color: #fff;
-	margin-left: 12%;
-	border-radius: 5px;
-	overflow: hidden;
+	margin-left: 22%;
 }
+
+nav{
+	display: flex;
+	align-items: center;
+}
+
+
